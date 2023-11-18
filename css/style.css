@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@media only screen and (max-width: 768px) {
+  #header-home {
+    height: 100%;
+  }
+  #header-home #showcase img {
+    display: none;
+  }
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+}
+.cuerpoindex{
+  background-color: #000;
+}
+.cuerpocontactos{
+  background: url("../img/fondocontactos.jpg");
+}
+.w-100{
+height: 350px;
+width: 370px;
+border-radius: 10px;
+}
+.aportafolio{
+  font-size: 20px;
+}
+.links_proyectos {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.links_proyectos:hover{
+transform: scale(1.1);
+color: red;
+
+}
+.cuerpoportafolio{
+  background: url("../img/fondoportafolio.jpg");
+}
+.card{
+  background-color:dimgray;
+  font: large;
+  color: #fff;
+  font-size: 20px;
+}
+form{
+  color: #fff;
+  font-size: 20px;
+}
+.card-tittle{
+color: white;
+font-weight: bolder;
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo{
+font-size: 40px;
+color: aliceblue;
+text-align: center;
+}
+.subtitulo{
+font-size: 30px;
+color: crimson;
+text-align: center;
+}
+.yo{
+  height: 450px;
+  width: 450px;
+  border-radius: 10px;
+  border: black;
+}
+.container{
+  border-radius: 10px;
+}
+.pt-2{
+  font-size: 23px;
+}
+#header-home {
+  background: url("../img/showcase-background.png");
+  height: 90vh;
+}
+#about{
+  background: url("../img/fondosobremi.jpg");
+  font-style: italic;
+  color: aliceblue;
+}
+#projects{
+  background: url("../img/fondoproyectos.jpg");
+  color: #fff;
+  font: bold;
+  font-size: large;
+}
+#header-home #showcase h6 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.text-main-color {
+  color: #d1ac87;
+}
+
+.bg-main-color {
+  background: black;
+}
+
+#contact button {
+  background: dodgerblue;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#footer {
+  background: #000;
+  color: #fff;
+}
+#footer a {
+  color: #fff;
+}
